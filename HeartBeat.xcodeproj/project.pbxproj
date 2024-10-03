@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D191482CAE866B000B07CD /* HeartBeat Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3D191472CAE866B000B07CD /* HeartBeat Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D191492CAE866B000B07CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D1913B2CAE866B000B07CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D191462CAE866B000B07CD;
+			remoteInfo = "HeartBeat Watch App";
+		};
+		C3D1915A2CAE866D000B07CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D1913B2CAE866B000B07CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D191462CAE866B000B07CD;
+			remoteInfo = "HeartBeat Watch App";
+		};
+		C3D191642CAE866D000B07CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D1913B2CAE866B000B07CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D191462CAE866B000B07CD;
+			remoteInfo = "HeartBeat Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3D191702CAE866D000B07CD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C3D191482CAE866B000B07CD /* HeartBeat Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3D191412CAE866B000B07CD /* HeartBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D191472CAE866B000B07CD /* HeartBeat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartBeat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D191592CAE866D000B07CD /* HeartBeat Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartBeat Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D191632CAE866D000B07CD /* HeartBeat Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartBeat Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3D1914B2CAE866B000B07CD /* HeartBeat Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartBeat Watch App";
+			sourceTree = "<group>";
+		};
+		C3D1915C2CAE866D000B07CD /* HeartBeat Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartBeat Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C3D191662CAE866D000B07CD /* HeartBeat Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartBeat Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D191442CAE866B000B07CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191562CAE866D000B07CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191602CAE866D000B07CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D1913A2CAE866B000B07CD = {
+			isa = PBXGroup;
+			children = (
+				C3D1914B2CAE866B000B07CD /* HeartBeat Watch App */,
+				C3D1915C2CAE866D000B07CD /* HeartBeat Watch AppTests */,
+				C3D191662CAE866D000B07CD /* HeartBeat Watch AppUITests */,
+				C3D191422CAE866B000B07CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D191422CAE866B000B07CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D191412CAE866B000B07CD /* HeartBeat.app */,
+				C3D191472CAE866B000B07CD /* HeartBeat Watch App.app */,
+				C3D191592CAE866D000B07CD /* HeartBeat Watch AppTests.xctest */,
+				C3D191632CAE866D000B07CD /* HeartBeat Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D191402CAE866B000B07CD /* HeartBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D191712CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat" */;
+			buildPhases = (
+				C3D1913F2CAE866B000B07CD /* Resources */,
+				C3D191702CAE866D000B07CD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D1914A2CAE866B000B07CD /* PBXTargetDependency */,
+			);
+			name = HeartBeat;
+			packageProductDependencies = (
+			);
+			productName = HeartBeat;
+			productReference = C3D191412CAE866B000B07CD /* HeartBeat.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C3D191462CAE866B000B07CD /* HeartBeat Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D1916D2CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch App" */;
+			buildPhases = (
+				C3D191432CAE866B000B07CD /* Sources */,
+				C3D191442CAE866B000B07CD /* Frameworks */,
+				C3D191452CAE866B000B07CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3D1914B2CAE866B000B07CD /* HeartBeat Watch App */,
+			);
+			name = "HeartBeat Watch App";
+			packageProductDependencies = (
+			);
+			productName = "HeartBeat Watch App";
+			productReference = C3D191472CAE866B000B07CD /* HeartBeat Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D191582CAE866D000B07CD /* HeartBeat Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D191742CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch AppTests" */;
+			buildPhases = (
+				C3D191552CAE866D000B07CD /* Sources */,
+				C3D191562CAE866D000B07CD /* Frameworks */,
+				C3D191572CAE866D000B07CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D1915B2CAE866D000B07CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3D1915C2CAE866D000B07CD /* HeartBeat Watch AppTests */,
+			);
+			name = "HeartBeat Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "HeartBeat Watch AppTests";
+			productReference = C3D191592CAE866D000B07CD /* HeartBeat Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3D191622CAE866D000B07CD /* HeartBeat Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D191772CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch AppUITests" */;
+			buildPhases = (
+				C3D1915F2CAE866D000B07CD /* Sources */,
+				C3D191602CAE866D000B07CD /* Frameworks */,
+				C3D191612CAE866D000B07CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D191652CAE866D000B07CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3D191662CAE866D000B07CD /* HeartBeat Watch AppUITests */,
+			);
+			name = "HeartBeat Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "HeartBeat Watch AppUITests";
+			productReference = C3D191632CAE866D000B07CD /* HeartBeat Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D1913B2CAE866B000B07CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C3D191402CAE866B000B07CD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C3D191462CAE866B000B07CD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C3D191582CAE866D000B07CD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C3D191462CAE866B000B07CD;
+					};
+					C3D191622CAE866D000B07CD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C3D191462CAE866B000B07CD;
+					};
+				};
+			};
+			buildConfigurationList = C3D1913E2CAE866B000B07CD /* Build configuration list for PBXProject "HeartBeat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D1913A2CAE866B000B07CD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3D191422CAE866B000B07CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D191402CAE866B000B07CD /* HeartBeat */,
+				C3D191462CAE866B000B07CD /* HeartBeat Watch App */,
+				C3D191582CAE866D000B07CD /* HeartBeat Watch AppTests */,
+				C3D191622CAE866D000B07CD /* HeartBeat Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D1913F2CAE866B000B07CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191452CAE866B000B07CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191572CAE866D000B07CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191612CAE866D000B07CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D191432CAE866B000B07CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D191552CAE866D000B07CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D1915F2CAE866D000B07CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D1914A2CAE866B000B07CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D191462CAE866B000B07CD /* HeartBeat Watch App */;
+			targetProxy = C3D191492CAE866B000B07CD /* PBXContainerItemProxy */;
+		};
+		C3D1915B2CAE866D000B07CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D191462CAE866B000B07CD /* HeartBeat Watch App */;
+			targetProxy = C3D1915A2CAE866D000B07CD /* PBXContainerItemProxy */;
+		};
+		C3D191652CAE866D000B07CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D191462CAE866B000B07CD /* HeartBeat Watch App */;
+			targetProxy = C3D191642CAE866D000B07CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3D1916B2CAE866D000B07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3D1916C2CAE866D000B07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C3D1916E2CAE866D000B07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartBeat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UK6T298768;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBeat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C3D1916F2CAE866D000B07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartBeat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UK6T298768;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBeat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		C3D191722CAE866D000B07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBeat;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3D191732CAE866D000B07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBeat;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D191752CAE866D000B07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartBeat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C3D191762CAE866D000B07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartBeat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		C3D191782CAE866D000B07CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartBeat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		C3D191792CAE866D000B07CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UK6T298768;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sax-Compute-Ltd.HeartBeat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartBeat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D1913E2CAE866B000B07CD /* Build configuration list for PBXProject "HeartBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D1916B2CAE866D000B07CD /* Debug */,
+				C3D1916C2CAE866D000B07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D1916D2CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D1916E2CAE866D000B07CD /* Debug */,
+				C3D1916F2CAE866D000B07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D191712CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D191722CAE866D000B07CD /* Debug */,
+				C3D191732CAE866D000B07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D191742CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D191752CAE866D000B07CD /* Debug */,
+				C3D191762CAE866D000B07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D191772CAE866D000B07CD /* Build configuration list for PBXNativeTarget "HeartBeat Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D191782CAE866D000B07CD /* Debug */,
+				C3D191792CAE866D000B07CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D1913B2CAE866B000B07CD /* Project object */;
+}
