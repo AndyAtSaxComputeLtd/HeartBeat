@@ -40,9 +40,32 @@
 		C3D191472CAE866B000B07CD /* HeartBeat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartBeat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A163C87A2CBE824900D81C43 /* Exceptions for "HeartBeat Watch App" folder in "HeartBeat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				heartbeat.png,
+				heartbeatPhone.png,
+			);
+			target = C3D191402CAE866B000B07CD /* HeartBeat */;
+		};
+		A163C87D2CBE82BB00D81C43 /* Exceptions for "HeartBeat Watch App" folder in "HeartBeat Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				heartbeatMessages.png,
+				heartbeatPhone.png,
+			);
+			target = C3D191462CAE866B000B07CD /* HeartBeat Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C3D1914B2CAE866B000B07CD /* HeartBeat Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A163C87A2CBE824900D81C43 /* Exceptions for "HeartBeat Watch App" folder in "HeartBeat" target */,
+				A163C87D2CBE82BB00D81C43 /* Exceptions for "HeartBeat Watch App" folder in "HeartBeat Watch App" target */,
+			);
 			path = "HeartBeat Watch App";
 			sourceTree = "<group>";
 		};
@@ -326,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartBeat Watch App/HeartBeat Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartBeat Watch App/Preview Content\"";
@@ -357,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartBeat Watch App/HeartBeat Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartBeat Watch App/Preview Content\"";

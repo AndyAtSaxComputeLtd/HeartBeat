@@ -1,9 +1,8 @@
-
 import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var heartRateManager = HeartRateManager()
-    
+
     @State private var scale: CGFloat = 1.0
     @State private var animationDuration: Double = 1.0
     
@@ -15,8 +14,8 @@ struct ContentView: View {
                 .foregroundColor(.red)
                 .scaleEffect(scale)
                 .frame(width: 100, height: 100)
-                .onChange(of: heartRateManager.heartRate) { newRate in
-                    animateHeartBeat(rate: newRate)
+                .onChange(of: heartRateManager.heartRate) {
+                    animateHeartBeat(rate: heartRateManager.heartRate)
                 }
             
             Text("Heart Rate: \(Int(heartRateManager.heartRate)) BPM")
